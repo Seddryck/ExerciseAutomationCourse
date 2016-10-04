@@ -1,0 +1,8 @@
+select
+	[Measures].[Internet Sales Amount] on 0
+	, non empty(
+		[Sales Territory].[Sales Territory Group].children
+		, [Product].[Category].children
+	) on 1
+from
+	[Adventure Works]

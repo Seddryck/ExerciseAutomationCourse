@@ -1,0 +1,10 @@
+select
+          {
+          [Measures].[Internet Sales Amount]
+          , [Measures].[Internet Tax Amount]
+          } on 0
+          , non empty(
+          [Sales Territory].[Sales Territory Group].children
+          ) on 1
+          from
+          [Adventure Works]

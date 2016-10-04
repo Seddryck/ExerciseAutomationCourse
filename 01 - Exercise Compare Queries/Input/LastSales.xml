@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Territories>
+  <Territory Name="Europe">
+    <LastSale>2016-08-12</LastSale>
+  </Territory>
+  <Territory Name="Pacific">
+    <LastSale>2016-08-18</LastSale>
+  </Territory>
+  <Territory Name="South America">
+    <LastSale>2016-08-26</LastSale>
+  </Territory>
+</Territories>
