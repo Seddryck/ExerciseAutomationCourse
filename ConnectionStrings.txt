@@ -1,0 +1,6 @@
+<default apply-to="system-under-test">
+      <connectionString>Provider=MSOLAP.4;Data Source=.\SQL2014;Initial Catalog=Adventure Works DW 2012;Locale Identifier=1033</connectionString>
+    </default>
+    <reference name="Oltp">
+      <connectionString>Data Source=.\SQL2014;Initial Catalog=AdventureWorks2012;Integrated Security=true;</connectionString>
+    </reference>
